@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+==============
+
+     When I initialize a repository, git probably gets a command to begin tracking files 
+     in the given directory. It must be some kind of preparation to further work. 
+
