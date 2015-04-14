@@ -5,3 +5,14 @@ What happens when you initialize a repository? Why do you need to do it?
      When I initialize a repository, git probably gets a command to begin tracking files 
      in the given directory. It must be some kind of preparation to further work. 
 
+==============
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+==============
+
+     Staging area can contain less files than the working directory. It is more 'targeted'
+     set of files, prepared to be changed at the first place. These files are already 
+     included in the repository, but need to be traced. By using staging area one can
+     control changes better and make the later navigation through these changes easier
+     to perform.
