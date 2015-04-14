@@ -16,3 +16,8 @@ How is the staging area different from the working directory and the repository?
      included in the repository, but need to be traced. By using staging area one can
      control changes better and make the later navigation through these changes easier
      to perform.
+     
+==============
+
+IT'S NOT A REFLECTION, IT'S JUST NOTE FOR TESTING HOW GIT WORKS
+    
