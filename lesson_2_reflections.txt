@@ -22,3 +22,12 @@ How is the staging area different from the working directory and the repository?
      On committing, only changes to this file/these files will be committed.
      If I work simultaneously upon some other files but don't include them in staging area,
      git will not modify them on committing.
+     
+==============
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+==============
+
+     Staging area helps to separate one logical change from another by targeting 
+     specific files. 
