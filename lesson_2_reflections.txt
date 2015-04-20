@@ -11,8 +11,8 @@ How is the staging area different from the working directory and the repository?
 
 ==============
 
-     Staging area can contain less files than the working directory. It is more 'targeted'
-     set of files, prepared to be changed at the first place. These files are already 
-     included in the repository, but need to be traced. By using staging area one can
-     control changes better and make the later navigation through these changes easier
-     to perform.
+     In staging area, there are only those files changes to which I want to commit.
+     On committing, only changes to this file/these files will be committed.
+     If I work simultaneously upon some other files but don't include them in staging area,
+     git will not modify them on committing.
+     
