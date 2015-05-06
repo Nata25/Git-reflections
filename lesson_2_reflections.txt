@@ -53,4 +53,33 @@ How do the diagrams help you visualize the branch structure?
      Diagrams show three main things:
      - the contest of changes (what changes have been made)
      - the consequence of changes (in what order)
-     - the connection of changes (branches)
+     - the connection of changes (branches) 
+     
+==============
+     
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+==============
+
+     The result of merging is 'the sum' of all changes (commits) made to the file on 
+     branches to merge. Namely, deletion and addition of some lines of code. 
+     If, for example, some line was edited, it is represented in commit as old 
+     version of the line deleted and new version added ( - and + ).
+     
+     The process of merging is somewhat mechanical procedure. Therefore, problems might 
+     arise if merging is being done by 'blind' combination of commits. 
+     For instance, Clair might code lines A...B to implement some color function.
+     John was also working on the same problem but came up with the different solution
+     (say, C...D). If do not control merging process, both versions (A...B and C...D)
+     will be included in the final merged version. That is unnecessary as A...B and C...D
+     account for the same functionality.
+     In real world, I suppose, Clair and John communicated and were aware of what each of
+     the is doing, probably working on TWO different branches dedicated to the color issue, 
+     say, color1 and color2. Then, no one will merge these branches as they solve the 
+     same problem.
+     
+     The visualization of merging by a diagram is useful because it shows real history of
+     commits, unlike linear representation in git log. Commits in merged version are 
+     listed in chronological order, but their connection with 'parent' commits in an 
+     original branch may be more important than actual time when the commit was made.
+     Diagram visualize both time and connection parameters of commits.
