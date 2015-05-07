@@ -83,3 +83,13 @@ What is the result of merging two branches together? Why do we represent it in t
      listed in chronological order, but their connection with 'parent' commits in an 
      original branch may be more important than actual time when the commit was made.
      Diagram visualize both time and connection parameters of commits.
+
+     UPD: (after the lesson on merging)
+     In fact, there ARE situations when git cannot figure out what changes keep if they 
+     were made in one piece of code. This is called merge conflict and git has instruments
+     to resolve it.
+     Still, I cannot understand, how it identifies where there is a conflict and where
+     there are only two unrelated pieces of code both of which should be included in 
+     the final version. For example, users can write their own versions of the same 
+     function in different part of the program, so git will not see them as related 
+     to the same code area; but they in fact create a conflict.
