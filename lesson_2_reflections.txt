@@ -93,3 +93,4 @@ What is the result of merging two branches together? Why do we represent it in t
      the final version. For example, users can write their own versions of the same 
      function in different part of the program, so git will not see them as related 
      to the same code area; but they in fact create a conflict.
+
