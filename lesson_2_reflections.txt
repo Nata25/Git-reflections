@@ -94,6 +94,11 @@ What is the result of merging two branches together? Why do we represent it in t
      function in different part of the program, so git will not see them as related 
      to the same code area; but they in fact create a conflict.
      
+     UPD2: (after solving problem with merging)
+     It seems that Git indeed cannot correctly merge two versions if they have, say, 
+     two similar or very close functions in DIFFERENT parts of code.
+     Keep thinking :-)
+     
 ==============
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
