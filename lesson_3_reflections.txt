@@ -1,0 +1,8 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+=======
+
+     It makes sense if I work or do a part of a work outdoors 
+     (i.e., without direct access to my PC or notebook) and also
+     if I'd like to share the results of my work with others 
+     who can either simply use or contribute to this file.
