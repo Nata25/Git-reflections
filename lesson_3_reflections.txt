@@ -6,3 +6,25 @@ When would you want to use a remote repository rather than keeping all your work
      (i.e., without direct access to my PC or notebook) and also
      if I'd like to share the results of my work with others 
      who can either simply use or contribute to this file.
+
+
+=======
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+=======
+
+     When I made some changes in local repository (Git), I might don't want GitHub to update
+     to these changes automatically. This is because I don't want to make ANY changes 
+     I made in my local host public.
+     For example, I might decide to test this new functionality before let others to see it. 
+     Or I just added some experimental functions which I want to compare to similar
+     functions in parallel branch before deciding which of them I should keep.
+     
+     It seems that the same is with pulling changes out of remote repository to local host. 
+     I might want to experiment with them before pulling into the master branch in Git.
+     I also might want to have a feedback from my peers who work on a project online.
+     So far, I cannot think about other reasons ;)
+     
+
