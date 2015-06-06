@@ -40,6 +40,20 @@ When would you use one instead of another?
      A clone is a copy of repository which is being created in Git, i.e., on personal PC.
      Branch is a string of changes, usually unique changes. It's being created 'from the 
      root', with no content (unlike clone or fork, which include copied features from 
-     the source) and then is filled with some new features.     
+     the source) and then is filled with some new features.
+     
+=========
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+=========
+
+      Having a copy of the last known state of the remote stored locally makes one able
+      to diverse from current to this previous state, to compare these two versions and 
+      also to enable working both independently on local PC and online (either one person
+      or two+ people) and then control the changes, selecting the best features and
+      merging existing branches. 
+      In general, it gives a developer more freedom both in mind (deciding on changes
+      and trying different paths of implementation) and in tools (work locally or online).
      
      
