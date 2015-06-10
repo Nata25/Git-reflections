@@ -55,5 +55,18 @@ What is the benefit of having a copy of the last known state of the remote store
       merging existing branches. 
       In general, it gives a developer more freedom both in mind (deciding on changes
       and trying different paths of implementation) and in tools (work locally or online).
+      
+==========
+
+How would you collaborate without using Git or GitHub? 
+What would be easier, and what would be harder?
+
+==========
+
+    I would probably make comments manually storing different version of a file 
+    with different names and then communicating whose version is better.
+    It would be harder to control all necessary changes and to combine them properly.
+    On the other hand, for small files without overloaded history of changes 'manual' 
+    and 'verbal' collaboration would take less time and effort than through GitHub.
      
      
