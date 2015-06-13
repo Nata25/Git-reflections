@@ -68,5 +68,17 @@ What would be easier, and what would be harder?
     It would be harder to control all necessary changes and to combine them properly.
     On the other hand, for small files without overloaded history of changes 'manual' 
     and 'verbal' collaboration would take less time and effort than through GitHub.
+
+===========
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+===========
+
+     It is safer to make changes not in master branch directly but in separate branch
+     and merge is through pull request because one never would have master branch broken
+     without taking attentive look and feedback from one's collaborators. That's the case
+     when collaboration works and two heads are better than one :) 
      
      
